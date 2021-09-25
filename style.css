@@ -1,0 +1,39 @@
+#clock-container {
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.hands {
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hours-hand {
+    height: 29%;
+    width: 2%;
+    top: 20%;
+    left: 49%;
+    opacity: 0.98;
+}
+
+#seconds-hand {
+    height: 41%;
+    width: 0.8%;
+    top: 8%;
+    left: 49.56%;
+    opacity: 1;
+}
+
+#minutes-hand {
+    height: 33%;
+    width: 1.6%;
+    top: 16%;
+    left: 49.2%;
+    opacity: 0.98;
+}
